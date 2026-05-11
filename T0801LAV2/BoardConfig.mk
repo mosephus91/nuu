@@ -59,6 +59,7 @@ BOARD_KERNEL_SEPARATED_DTBO :=
 # Only include recovery DTBO when a prebuilt dtbo.img exists.
 ifneq ($(wildcard $(DEVICE_PATH)/prebuilt/dtbo.img),)
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
+BOARD_PREBUILT_RECOVERY_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 BOARD_INCLUDE_RECOVERY_DTBO := true
 BOARD_KERNEL_SEPARATED_DTBO := true
 endif
