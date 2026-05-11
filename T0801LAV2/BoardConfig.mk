@@ -52,7 +52,7 @@ ifeq ($(TARGET_FORCE_PREBUILT_KERNEL),true)
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz
 TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
 BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
-# Use --dtb with the prebuilt DTB instead of bundling it in the boot image.
+# Disable DTB bundling in the boot image; DTB is provided via the --dtb flag.
 BOARD_INCLUDE_DTB_IN_BOOTIMG :=
 # Disable separated DTBO unless a prebuilt dtbo.img is available.
 BOARD_KERNEL_SEPARATED_DTBO :=

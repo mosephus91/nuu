@@ -39,5 +39,6 @@ Use one of the following methods after unlocking the bootloader:
 
 - **From Android (adb + dd)**
   - `adb push recovery.img /sdcard/`
+  - Verify the correct recovery block device path for your device (e.g., `/dev/block/by-name` or `/proc/partitions`).
   - `adb shell su -c 'dd if=/sdcard/recovery.img of=/dev/block/platform/bootdevice/by-name/recovery conv=fsync'`
   - Confirm the `dd` command exits successfully (exit code 0) before rebooting.
