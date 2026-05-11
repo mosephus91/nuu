@@ -56,12 +56,10 @@ BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
 BOARD_INCLUDE_DTB_IN_BOOTIMG :=
 # Disable separated DTBO unless a prebuilt dtbo.img is available.
 BOARD_KERNEL_SEPARATED_DTBO :=
-ifneq ($(strip $(DEVICE_PATH)),)
 ifneq ($(wildcard $(DEVICE_PATH)/prebuilt/dtbo.img),)
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 BOARD_INCLUDE_RECOVERY_DTBO := true
 BOARD_KERNEL_SEPARATED_DTBO := true
-endif
 endif
 endif
 
