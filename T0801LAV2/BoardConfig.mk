@@ -49,19 +49,12 @@ TARGET_KERNEL_SOURCE := kernel/nuu/T0801LAV2
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
 ifeq ($(TARGET_FORCE_PREBUILT_KERNEL),true)
-TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz
+TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel
 TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
 BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
-# Disable DTB bundling in the boot image; DTB is provided via the --dtb flag.
-BOARD_INCLUDE_DTB_IN_BOOTIMG :=
-# Disable separated DTBO unless a prebuilt dtbo.img is available.
-BOARD_KERNEL_SEPARATED_DTBO :=
-# Only include recovery DTBO when a prebuilt dtbo.img exists.
-ifneq ($(wildcard $(DEVICE_PATH)/prebuilt/dtbo.img),)
+BOARD_INCLUDE_DTB_IN_BOOTIMG := 
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
-BOARD_INCLUDE_RECOVERY_DTBO := true
-BOARD_KERNEL_SEPARATED_DTBO := true
-endif
+BOARD_KERNEL_SEPARATED_DTBO := 
 endif
 
 # Partitions
@@ -82,6 +75,7 @@ BOARD_NUU_DYNAMIC_PARTITIONS_SIZE := 9122611200 # TODO: Fix hardcoded value
 TARGET_BOARD_PLATFORM := mt6739
 
 # Recovery
+BOARD_INCLUDE_RECOVERY_DTBO := true
 TARGET_RECOVERY_PIXEL_FORMAT := BGRA_8888
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
