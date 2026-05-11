@@ -52,11 +52,12 @@ ifeq ($(TARGET_FORCE_PREBUILT_KERNEL),true)
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz
 TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
 BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
-BOARD_INCLUDE_DTB_IN_BOOTIMG := 
-BOARD_KERNEL_SEPARATED_DTBO := 
+BOARD_INCLUDE_DTB_IN_BOOTIMG := # Use --dtb with the prebuilt DTB instead.
+BOARD_KERNEL_SEPARATED_DTBO := # Enable only when a prebuilt dtbo.img is available.
 ifneq ($(wildcard $(DEVICE_PATH)/prebuilt/dtbo.img),)
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 BOARD_INCLUDE_RECOVERY_DTBO := true
+BOARD_KERNEL_SEPARATED_DTBO := true
 endif
 endif
 
