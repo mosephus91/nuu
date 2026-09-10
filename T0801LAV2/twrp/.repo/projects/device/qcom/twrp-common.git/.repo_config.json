@@ -1,0 +1,38 @@
+{
+  "core.repositoryformatversion": [
+    "0"
+  ],
+  "core.filemode": [
+    "false"
+  ],
+  "core.ignorecase": [
+    "true"
+  ],
+  "user.name": [
+    "mosephus91"
+  ],
+  "filter.lfs.smudge": [
+    "git-lfs smudge --skip -- %f"
+  ],
+  "filter.lfs.process": [
+    "git-lfs filter-process --skip"
+  ],
+  "remote.TeamWin.url": [
+    "https://github.com/TeamWin/android_device_qcom_twrp-common"
+  ],
+  "remote.TeamWin.review": [
+    "https://gerrit.twrp.me"
+  ],
+  "remote.TeamWin.projectname": [
+    "android_device_qcom_twrp-common"
+  ],
+  "remote.TeamWin.fetch": [
+    "+refs/heads/*:refs/remotes/TeamWin/*"
+  ],
+  "maintenance.auto": [
+    "false"
+  ],
+  "gc.auto": [
+    "0"
+  ]
+}

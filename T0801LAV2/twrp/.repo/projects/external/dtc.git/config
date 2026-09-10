@@ -1,0 +1,18 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	ignorecase = true
+[user]
+	name = mosephus91
+[filter "lfs"]
+	smudge = git-lfs smudge --skip -- %f
+	process = git-lfs filter-process --skip
+[remote "aosp"]
+	url = https://android.googlesource.com/platform/external/dtc
+	review = https://android-review.googlesource.com/
+	projectname = platform/external/dtc
+	fetch = +refs/heads/*:refs/remotes/aosp/*
+[maintenance]
+	auto = false
+[gc]
+	auto = 0

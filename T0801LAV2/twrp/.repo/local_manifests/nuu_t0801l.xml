@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="mosephus91/Nuu-mtk-custom-recovery"
+           path="device/nuu/t0801l"
+           remote="github"
+           revision="main" />
+</manifest>

@@ -1,0 +1,27 @@
+[core]
+	repositoryFormatVersion = 1
+	filemode = false
+	ignorecase = true
+[filter "lfs"]
+	smudge = git-lfs smudge --skip -- %f
+	process = git-lfs filter-process --skip
+[repo]
+	depth = 1
+	existingprojectcount = 0
+	newprojectcount = 250
+[remote "origin"]
+	url = https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[manifest]
+	platform = auto
+[extensions]
+	preciousObjects = true
+[maintenance]
+	auto = false
+[gc]
+	auto = 0
+[branch "default"]
+	remote = origin
+	merge = refs/heads/twrp-12.1
+[user]
+	name = mosephus91

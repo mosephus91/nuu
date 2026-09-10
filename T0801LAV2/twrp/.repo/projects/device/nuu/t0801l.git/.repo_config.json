@@ -1,0 +1,35 @@
+{
+  "core.repositoryformatversion": [
+    "0"
+  ],
+  "core.filemode": [
+    "false"
+  ],
+  "core.ignorecase": [
+    "true"
+  ],
+  "user.name": [
+    "mosephus91"
+  ],
+  "filter.lfs.smudge": [
+    "git-lfs smudge --skip -- %f"
+  ],
+  "filter.lfs.process": [
+    "git-lfs filter-process --skip"
+  ],
+  "remote.github.url": [
+    "https://github.com/mosephus91/Nuu-mtk-custom-recovery"
+  ],
+  "remote.github.projectname": [
+    "mosephus91/Nuu-mtk-custom-recovery"
+  ],
+  "remote.github.fetch": [
+    "+refs/heads/*:refs/remotes/github/*"
+  ],
+  "maintenance.auto": [
+    "false"
+  ],
+  "gc.auto": [
+    "0"
+  ]
+}

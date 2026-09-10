@@ -1,0 +1,21 @@
+{
+  "android_device_qcom_common": 22.036512851715088,
+  "android_device_qcom_twrp-common": 22.43497896194458,
+  "platform/bootable/libbootloader": 23.8473539352417,
+  "platform/external/bazelbuild-rules_android": 19.34874391555786,
+  "platform/build/blueprint": 21.47865867614746,
+  "platform/external/avb": 21.36911392211914,
+  "platform/external/arm-optimized-routines": 20.123991012573242,
+  "platform/build/pesto": 27.96414017677307,
+  "platform/external/bsdiff": 28.664204359054565,
+  "mosephus91/Nuu-mtk-custom-recovery": 52.83551335334778,
+  "platform/build/bazel": 46.603168964385986,
+  "android_build_soong": 23.01314091682434,
+  "platform/external/dlmalloc": 32.835782527923584,
+  "platform/external/bc": 21.344806671142578,
+  "platform/external/bzip2": 49.89467525482178,
+  "platform/external/apache-http": 21.499507665634155,
+  "android_external_bash": 34.316624879837036,
+  "android_build": 28.236467123031616,
+  "platform/external/dtc": 32.64933133125305
+}

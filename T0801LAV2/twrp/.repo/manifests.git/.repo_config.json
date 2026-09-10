@@ -1,0 +1,47 @@
+{
+  "core.repositoryformatversion": [
+    "1"
+  ],
+  "core.filemode": [
+    "false"
+  ],
+  "core.ignorecase": [
+    "true"
+  ],
+  "filter.lfs.smudge": [
+    "git-lfs smudge --skip -- %f"
+  ],
+  "filter.lfs.process": [
+    "git-lfs filter-process --skip"
+  ],
+  "repo.depth": [
+    "1"
+  ],
+  "remote.origin.url": [
+    "https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git"
+  ],
+  "remote.origin.fetch": [
+    "+refs/heads/*:refs/remotes/origin/*"
+  ],
+  "manifest.platform": [
+    "auto"
+  ],
+  "extensions.preciousobjects": [
+    "true"
+  ],
+  "maintenance.auto": [
+    "false"
+  ],
+  "gc.auto": [
+    "0"
+  ],
+  "branch.default.remote": [
+    "origin"
+  ],
+  "branch.default.merge": [
+    "refs/heads/twrp-12.1"
+  ],
+  "user.name": [
+    "mosephus91"
+  ]
+}

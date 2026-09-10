@@ -1,0 +1,78 @@
+{
+  "device/qcom/common": {
+    "last_fetch": 1778468132.3661265,
+    "last_checkout": 1778468132.3661265
+  },
+  "device/qcom/twrp-common": {
+    "last_fetch": 1778468132.3661265,
+    "last_checkout": 1778468132.3661265
+  },
+  "bootable/libbootloader": {
+    "last_fetch": 1778468132.3661265,
+    "last_checkout": 1778468132.3661265
+  },
+  "external/bazelbuild-rules_android": {
+    "last_fetch": 1778468132.3661265,
+    "last_checkout": 1778468132.3661265
+  },
+  "build/blueprint": {
+    "last_fetch": 1778468132.3661265,
+    "last_checkout": 1778468132.3661265
+  },
+  "external/avb": {
+    "last_fetch": 1778468132.3661265,
+    "last_checkout": 1778468132.3661265
+  },
+  "external/arm-optimized-routines": {
+    "last_fetch": 1778468132.3661265,
+    "last_checkout": 1778468132.3661265
+  },
+  "build/pesto": {
+    "last_fetch": 1778468132.3661265,
+    "last_checkout": 1778468132.3661265
+  },
+  "external/bsdiff": {
+    "last_fetch": 1778468132.3661265,
+    "last_checkout": 1778468132.3661265
+  },
+  "device/nuu/t0801l": {
+    "last_fetch": 1778468132.3661265,
+    "last_checkout": 1778468132.3661265
+  },
+  "build/bazel": {
+    "last_fetch": 1778468132.3661265,
+    "last_checkout": 1778468132.3661265
+  },
+  "build/soong": {
+    "last_fetch": 1778468132.3661265,
+    "last_checkout": 1778468132.3661265
+  },
+  "external/dlmalloc": {
+    "last_fetch": 1778468132.3661265,
+    "last_checkout": 1778468132.3661265
+  },
+  "external/bc": {
+    "last_fetch": 1778468132.3661265,
+    "last_checkout": 1778468132.3661265
+  },
+  "external/bzip2": {
+    "last_fetch": 1778468132.3661265,
+    "last_checkout": 1778468132.3661265
+  },
+  "external/apache-http": {
+    "last_fetch": 1778468132.3661265,
+    "last_checkout": 1778468132.3661265
+  },
+  "external/bash": {
+    "last_fetch": 1778468132.3661265,
+    "last_checkout": 1778468132.3661265
+  },
+  "build/make": {
+    "last_fetch": 1778468132.3661265,
+    "last_checkout": 1778468132.3661265
+  },
+  "external/dtc": {
+    "last_fetch": 1778468132.3661265,
+    "last_checkout": 1778468132.3661265
+  }
+}
